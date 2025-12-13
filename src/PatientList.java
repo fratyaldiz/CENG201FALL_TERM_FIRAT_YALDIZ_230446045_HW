@@ -47,7 +47,7 @@ public class PatientList  {
 
         }
         if ( current == null){
-            System.out.println("Patient with ID "+ id+"is not exist.");
+            System.out.println("Patient with ID "+ id+" is not exist.");
             return;
         }
         previous.next = current.next;
