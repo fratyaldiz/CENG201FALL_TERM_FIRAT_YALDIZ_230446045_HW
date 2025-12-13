@@ -73,6 +73,7 @@ public class PatientList  {
         while (current != null){
             System.out.println(current.info);
             current = current.next;
+
         }
     }
 }
