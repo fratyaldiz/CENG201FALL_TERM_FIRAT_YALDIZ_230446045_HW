@@ -4,9 +4,9 @@ public class Main {
 
         Patient p1 = new Patient(1,"Zeynep",1,21);
         Patient p2 = new Patient(2,"Eren",2,30);
-        Patient p3 = new Patient(3,"Alper",3,16);
+        Patient p3 = new Patient(3,"Barış",3,16);
         Patient p4 = new Patient(4,"Gizem",4,43);
-        Patient p5 = new Patient(5,"Furkan",6,20);
+        Patient p5 = new Patient(5,"Alper",6,20);
 
         patient1.addPatient(p1);
         patient1.addPatient(p2);
