@@ -20,7 +20,7 @@ public class TreatmentQueue {
 
     public void enqueue(TreatmentRequest request) { //adds to queue
         Node newNode = new Node(request);
-        if(rear == null) {
+        if(rear == null) {      //For queue is empty
             front = newNode;
             rear = newNode;
         }
@@ -33,7 +33,7 @@ public class TreatmentQueue {
     }
 
     public TreatmentRequest dequeue() { //deletes element from the queue
-        if(front == null) {
+        if(front == null) {         //For queue is empty
             System.out.println("Queue's empty");
             return null;
         }

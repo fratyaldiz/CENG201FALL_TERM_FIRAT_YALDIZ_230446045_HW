@@ -14,7 +14,7 @@ public class TreatmentRequest {
 
     @Override // I learned in class
     public String toString() {  //To convert an object to a String
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");     //for get a good output
         String time = sdf.format(new Date(arrivalTime));
 
         return "PatientID=" + patientId  +  "priority=" + priority+ ", time=" + time;
