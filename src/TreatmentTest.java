@@ -4,9 +4,14 @@ public class TreatmentTest {
 
 
         //Add 8 treatment requests.
-        for (int i = 1; i <= 8; i++) {
-            queue.enqueue(new TreatmentRequest(i));
-        }
+        queue.enqueue(new TreatmentRequest(1,true));
+        queue.enqueue(new TreatmentRequest(2,false));
+        queue.enqueue(new TreatmentRequest(3,true));
+        queue.enqueue(new TreatmentRequest(4,false));
+        queue.enqueue(new TreatmentRequest(5,true));
+        queue.enqueue(new TreatmentRequest(6,false));
+        queue.enqueue(new TreatmentRequest(7,false));
+        queue.enqueue(new TreatmentRequest(8,true));
 
         //Process (dequeue) 3 requests.
         queue.dequeue();
