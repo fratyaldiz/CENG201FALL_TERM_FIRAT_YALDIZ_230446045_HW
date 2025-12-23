@@ -13,7 +13,7 @@ public class HospitalTest {
         hs.addPatient(new Patient(7, "Eren", 8, 35));
         hs.addPatient(new Patient(8, "Sümeyra", 7, 26));
         hs.addPatient(new Patient(9, "Toygun", 9, 40));
-        hs.addPatient(new Patient(10, "Mustafa", 10, 50));
+        hs.addPatient(new Patient(10, "Kemal", 10, 50));
 
         // Add 5 normal treatment requests and 3 priority treatment requests
         hs.addTreatmentRequest(1, false);
@@ -38,5 +38,10 @@ public class HospitalTest {
 
         //Print final system state
         hs.printSystemState();
+
+        System.out.println();
+        //sort patients by severity level
+        hs.printPatientsSortedBySeverity();
+
     }
 }

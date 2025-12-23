@@ -75,4 +75,22 @@ public class PatientList  {
             current = current.next;
         }
     }
+    public void sortBySeverity() {      //For Task-4 (HospitalSystem)
+        if (head == null)
+            return;
+        boolean swapped = true;
+        while (swapped) {
+            swapped = false;
+            Node current = head;
+            while (current.next != null) {
+                if (current.info.severity < current.next.info.severity) {
+                    Patient temp = current.info;
+                    current.info = current.next.info;
+                    current.next.info = temp;
+                    swapped = true;
+                }
+                current = current.next;
+            }
+        }
+    }
 }

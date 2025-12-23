@@ -71,4 +71,10 @@ public class HospitalSystem {
         dischargeStack.printStack();
     }
 
+    // Sort patients by severity
+    public void printPatientsSortedBySeverity() {
+        patientList.sortBySeverity();
+        patientList.printList();
+    }
+
 }
