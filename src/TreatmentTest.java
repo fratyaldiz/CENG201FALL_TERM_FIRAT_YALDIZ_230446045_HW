@@ -9,12 +9,9 @@ public class TreatmentTest {
         }
 
         //Process (dequeue) 3 requests.
-        for (int i = 0; i<3; i++){
-            TreatmentRequest processed = queue.dequeue();
-            if(processed != null){
-                System.out.println("Dequeded: " + processed.patientId);
-            }
-        }
+        queue.dequeue();
+        queue.dequeue();
+        queue.dequeue();
 
         //Print the remaining queue
         queue.printQueue();
