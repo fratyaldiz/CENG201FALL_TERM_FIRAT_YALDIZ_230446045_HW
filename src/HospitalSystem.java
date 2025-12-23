@@ -32,6 +32,11 @@ public class HospitalSystem {
             normalQueue.enqueue(request);       //normal patient
         }
     }
+    // Adds discharge record
+    public void addDischargeRecord(int patientId) {
+        dischargeStack.push(new DischargeRecord(patientId));
+    }
+
 
     //Treatment procedure (emergency patients firs)
     public void proccessTreatment(){
