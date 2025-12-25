@@ -20,5 +20,6 @@ public class TreatmentTest {
 
         //Print the remaining queue
         queue.printQueue();
+
     }
 }
