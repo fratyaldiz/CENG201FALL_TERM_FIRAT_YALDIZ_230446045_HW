@@ -8,6 +8,7 @@ public class PatientTest {
         Patient p4 = new Patient(4,"Gizem",4,43);
         Patient p5 = new Patient(5,"Alper",6,20);
 
+        //Add 5 patient
         patient1.addPatient(p1);
         patient1.addPatient(p2);
         patient1.addPatient(p3);
@@ -16,13 +17,17 @@ public class PatientTest {
 
         System.out.println();
 
+        // Remove one
         patient1.removePatient(5);
 
         System.out.println();
 
+        //Search for one by ID
         System.out.println(patient1.findPatient(1));
 
         System.out.println();
+
+        //Print list
         patient1.printList();
     }
 }
