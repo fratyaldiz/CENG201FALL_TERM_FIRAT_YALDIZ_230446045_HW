@@ -1,7 +1,7 @@
 public class Patient {
     int id;
     String name;
-    int severity;
+    int severity;       //between 1 and 10
     int age;
 
     public Patient(int id, String name, int severity, int age) {
