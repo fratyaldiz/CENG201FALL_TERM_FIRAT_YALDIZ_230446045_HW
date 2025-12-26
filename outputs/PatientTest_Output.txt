@@ -1,4 +1,4 @@
-C:\Users\Fırat\.jdks\openjdk-25.0.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.2.2\lib\idea_rt.jar=65060" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\Fırat\Desktop\CENG201FALL_TERM_FIRAT_YALDIZ_230446045_HW\out\production\CENG201FALL_TERM_FIRAT_YALDIZ_230446045_HW PatientTest
+C:\Users\Fırat\.jdks\openjdk-25.0.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.2.2\lib\idea_rt.jar=52336" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Users\Fırat\Desktop\CENG201(FALL_TERM)_FIRAT_YALDIZ_[230446045]_HW\out\production\CENG201FALL_TERM_FIRAT_YALDIZ_230446045_HW" PatientTest
 Patient added
 Patient added
 Patient added

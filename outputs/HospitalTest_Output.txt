@@ -1,4 +1,4 @@
-C:\Users\Fırat\.jdks\openjdk-25.0.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.2.2\lib\idea_rt.jar=58178" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\Fırat\Desktop\CENG201FALL_TERM_FIRAT_YALDIZ_230446045_HW\out\production\CENG201FALL_TERM_FIRAT_YALDIZ_230446045_HW HospitalTest
+C:\Users\Fırat\.jdks\openjdk-25.0.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.2.2\lib\idea_rt.jar=54791" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Users\Fırat\Desktop\CENG201(FALL_TERM)_FIRAT_YALDIZ_[230446045]_HW\out\production\CENG201FALL_TERM_FIRAT_YALDIZ_230446045_HW" HospitalTest
 Patient added
 Patient added
 Patient added
@@ -41,17 +41,17 @@ Patients:
 Priority Treatment Queue: 
 Queue's empty
 Normal Treatment Queue: 
-PatientID=2priority=false, time=23/12/2025 20:25:48
-PatientID=3priority=false, time=23/12/2025 20:25:48
-PatientID=4priority=false, time=23/12/2025 20:25:48
-PatientID=5priority=false, time=23/12/2025 20:25:48
+PatientID=2priority=false, time=26/12/2025 18:04:44
+PatientID=3priority=false, time=26/12/2025 18:04:44
+PatientID=4priority=false, time=26/12/2025 18:04:44
+PatientID=5priority=false, time=26/12/2025 18:04:44
 Discharge Stack: 
-PatientID=1 dischargeTime=23/12/2025 20:25:48
-PatientID=8 dischargeTime=23/12/2025 20:25:48
-PatientID=7 dischargeTime=23/12/2025 20:25:48
-PatientID=6 dischargeTime=23/12/2025 20:25:48
-PatientID=10 dischargeTime=23/12/2025 20:25:48
-PatientID=9 dischargeTime=23/12/2025 20:25:48
+PatientID=1 dischargeTime=26/12/2025 18:04:44
+PatientID=8 dischargeTime=26/12/2025 18:04:44
+PatientID=7 dischargeTime=26/12/2025 18:04:44
+PatientID=6 dischargeTime=26/12/2025 18:04:44
+PatientID=10 dischargeTime=26/12/2025 18:04:44
+PatientID=9 dischargeTime=26/12/2025 18:04:44
 
 10 - Kemal (severity=10, age=50)
 9 - Toygun (severity=9, age=40)

@@ -1,0 +1,13 @@
+C:\Users\Fırat\.jdks\openjdk-25.0.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.2.2\lib\idea_rt.jar=52328" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Users\Fırat\Desktop\CENG201(FALL_TERM)_FIRAT_YALDIZ_[230446045]_HW\out\production\CENG201FALL_TERM_FIRAT_YALDIZ_230446045_HW" DischargeTest
+Pushed
+Pushed
+Pushed
+Pushed
+Pushed
+Popped
+Popped
+PatientID=3 dischargeTime=26/12/2025 18:03:47
+PatientID=2 dischargeTime=26/12/2025 18:03:47
+PatientID=1 dischargeTime=26/12/2025 18:03:47
+
+Process finished with exit code 0
